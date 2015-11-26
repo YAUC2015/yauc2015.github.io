@@ -1,0 +1,376 @@
+/* stype.css */
+@charset "UTF-8";
+
+body    {
+    font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+}
+
+/*******************************************************************************
+ * .menu
+ * ナビゲーションバー
+ ******************************************************************************/
+.menu   {
+    margin: 0
+} 
+
+.menu .navbar-brand {
+    font-family: 'Francois One', sans-serif;
+}
+
+/*******************************************************************************
+ * ページトップボタン
+ * #page-top
+ ******************************************************************************/
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+}
+
+#page-top a {
+    background: #666;
+    text-decoration: none;
+    color: #fff;
+    width: 50px;
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    filter:alpha(opacity=60);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+#page-top a:hover {
+    text-decoration: none;
+    background: #999;
+}
+
+/*******************************************************************************
+ * .about-top
+ * トップ
+ ******************************************************************************/
+.about-top  {
+    padding: 120px 0 0 0;
+    background-color: #dfe3e8;
+    text-align: center;
+}
+
+.about-top img  {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 100px auto 0 auto;
+    vertical-align: bottom;
+}
+
+.about-top h1   {
+    margin: 0 0 20px 0;
+    font-size: 80px;
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    line-height: 1.2;
+}
+
+.about-top p    {
+    margin: 0 0 35px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* 背景画像の設定 */
+.about-top  {
+    background-image: url("../img/top.jpg");
+    background-position: 30% 50%;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.about-top .button  {
+    text-shadow: none;
+}
+
+/* media query */
+@media (max-width: 450px)   {
+    .about-top  {padding: 60px 0 0 0;}
+    .about-top h1   {font-size: 46px;}
+    .about-top p    {font-size: 14px;}
+} /* @media */
+
+/*******************************************************************************
+ * 概要
+ * .about-yauc
+ ******************************************************************************/
+.about-yauc {
+    padding: 80px 0 80px 0;
+    background-color: #fff;
+}
+
+.about-yauc img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-yauc h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-yauc p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.about-yauc a   {
+    text-decoration: none;
+}
+
+/*******************************************************************************
+ * 基本情報
+ * .about-basic-info
+ ******************************************************************************/
+.about-basic-info {
+    padding: 80px 0 80px 0;
+    background-color: #efefee;
+}
+
+.about-basic-info img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-basic-info h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-basic-info p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.about-basic-info a   {
+    text-decoration: none;
+}
+
+.about-basic-info table   {
+    background: #fff;
+}
+
+/*******************************************************************************
+ * ミッションステートメント
+ * .about-mission-statement
+ ******************************************************************************/
+/*** mission statement ***/
+.about-mission-statement    {
+    padding: 80px 0 80px 0;
+    background-color: #0c5a94;
+    color: #fff;
+}
+
+.about-mission-statement img    {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-mission-statement h2 {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-mission-statement p  {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*******************************************************************************
+ * ミッションステートメント続き
+ * .more-about-mission-statement
+ ******************************************************************************/
+.more-about-mission-statement {
+    padding: 80px 0 80px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.more-about-mission-statement img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.more-about-mission-statement h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.more-about-mission-statement p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*******************************************************************************
+ * ゲスト講師
+ * .more-about-mission-statement
+ ******************************************************************************/
+.about-guest-speaker {
+    padding: 80px 0 80px 0;
+    background-color: #efefee;
+    text-align: center;
+}
+
+.about-guest-speaker img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-guest-speaker h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-guest-speaker p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.about-guest-speaker a   {
+    text-decoration: none;
+}
+
+/* 及川氏からの参加者へのメッセージ */
+.about-guest-speaker .guest-message   {
+    padding: 20px;
+    margin: 10px 30px 60px 30px;
+    background-color: #f5ffff;
+    border: solid 1px #000;
+    text-align: center;
+    border: 1px solid #ccc;
+    /* box-shadow */
+    sbox-shadow: 5px 5px 0 #000;
+    -webkit-box-shadow: 5px 5px 0 #000;
+    -moz-box-shadow: 5px 5px 0 #000;
+}
+
+.about-guest-speaker .guest-message h2 {
+    font-size: 25px;
+}
+
+.about-guest-speaker .guest-message p {
+    text-align: left;
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+    background: url(../img/underline.png) repeat left bottom;
+}
+
+/*******************************************************************************
+ * LT募集
+ * .about-lt
+ ******************************************************************************/
+/*** more about conf ***/
+.about-lt {
+    padding: 80px 0 80px 0;
+    background-color: #4fac44;
+    text-align: center;
+    color: #fff;
+}
+
+.about-lt img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-lt h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-lt p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.about-lt a   {
+    text-decoration: none;
+}
+
+/*******************************************************************************
+ * for the future
+ * .about-future
+ ******************************************************************************/
+.about-future {
+    padding: 80px 0 80px 0;
+    background-color: #fff;
+}
+
+.about-future img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    vertical-align: bottom;
+}
+
+.about-future h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.about-future p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*******************************************************************************
+ * フッター
+ * .footer
+ ******************************************************************************/
+.footer {
+    padding: 20px 0 20px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer p   {
+    margin: 0 0 3px 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.footer a   {
+    color: #fff;
+    text-decoration: none;
+}
