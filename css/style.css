@@ -263,12 +263,13 @@ body    {
     text-decoration: none;
 }
 
+/* クリエイティブ・コモンズ表記 */
 .about-guest-speaker .cc {
-    padding: 0 5px 0px 5px;
-    margin: 0 30px 20px 30px;
-    border: 1px solid #999;
+    padding: 5px;
+    margin: 0 40px 20px 40px;
     display: inline-block;
-    background-color: #e6e6e6;
+    border: 1px solid #999;
+    background-color: #d5d5d5;
     text-align: center;
 }
 
@@ -277,6 +278,7 @@ body    {
 }
 
 .about-guest-speaker .cc p {
+    display:inline;
     font-size: 12px;
 }
 
