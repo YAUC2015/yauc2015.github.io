@@ -263,6 +263,15 @@ body    {
     text-decoration: none;
 }
 
+.about-guest-speaker .cc {
+    padding: 0 5px 0px 5px;
+    margin: 0 30px 20px 30px;
+    border: 1px solid #999;
+    display: inline-block;
+    background-color: #c5c5c5;
+    text-align: center;
+}
+
 /* 及川氏からの参加者へのメッセージ */
 .about-guest-speaker .guest-message   {
     padding: 20px;
