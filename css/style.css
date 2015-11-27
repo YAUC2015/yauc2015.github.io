@@ -6,8 +6,8 @@ body    {
 }
 
 /*******************************************************************************
- * .menu
  * ナビゲーションバー
+ * .menu
  ******************************************************************************/
 .menu   {
     margin: 0
@@ -48,8 +48,8 @@ body    {
 }
 
 /*******************************************************************************
- * .about-top
  * トップ
+ * .about-top
  ******************************************************************************/
 .about-top  {
     padding: 120px 0 0 0;
@@ -173,7 +173,6 @@ body    {
  * ミッションステートメント
  * .about-mission-statement
  ******************************************************************************/
-/*** mission statement ***/
 .about-mission-statement    {
     padding: 80px 0 80px 0;
     background-color: #0c5a94;
@@ -232,7 +231,7 @@ body    {
 
 /*******************************************************************************
  * ゲスト講師
- * .more-about-mission-statement
+ * .about-guest-speaker
  ******************************************************************************/
 .about-guest-speaker {
     padding: 80px 0 80px 0;
@@ -251,6 +250,10 @@ body    {
     margin: 0 0 20px 0;
     font-size: 40px;
     line-height: 1.2;
+}
+
+.about-guest-speaker h3  {
+    font-size: 30px;
 }
 
 .about-guest-speaker p   {
@@ -291,6 +294,10 @@ body    {
     text-align: center;
     border: 1px solid #ccc;
     /* box-shadow */
+    /* 
+     * NOTE
+     * FireFoxとIEで影が付かない
+     */
     box-shadow: 5px 5px 0 #000;
     -webkit-box-shadow: 5px 5px 0 #000;
     -moz-box-shadow: 5px 5px 0 #000;
@@ -305,7 +312,7 @@ body    {
     text-align: left;
     margin: 0;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 20px;
     background: url(../img/underline.png) repeat left bottom;
 }
 
@@ -346,7 +353,7 @@ body    {
 }
 
 /*******************************************************************************
- * for the future
+ * Future
  * .about-future
  ******************************************************************************/
 .about-future {
