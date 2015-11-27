@@ -283,7 +283,7 @@ body    {
 }
 
 /* 及川氏からの参加者へのメッセージ */
-.about-guest-speaker .guest-message   {
+.guest-message   {
     padding: 20px;
     margin: 10px 30px 60px 30px;
     background-color: #f5ffff;
@@ -291,16 +291,17 @@ body    {
     text-align: center;
     border: 1px solid #ccc;
     /* box-shadow */
-    sbox-shadow: 5px 5px 0 #000;
+    box-shadow: 5px 5px 0 #000;
     -webkit-box-shadow: 5px 5px 0 #000;
     -moz-box-shadow: 5px 5px 0 #000;
+
 }
 
-.about-guest-speaker .guest-message h2 {
+.guest-message h2 {
     font-size: 25px;
 }
 
-.about-guest-speaker .guest-message p {
+.guest-message p {
     text-align: left;
     margin: 0;
     line-height: 25px;
