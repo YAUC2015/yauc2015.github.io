@@ -320,7 +320,6 @@ body    {
  * LT募集
  * .about-lt
  ******************************************************************************/
-/*** more about conf ***/
 .about-lt {
     padding: 80px 0 80px 0;
     background-color: #4fac44;
@@ -385,7 +384,6 @@ body    {
  * お問い合わせ
  * .contact-us
  ******************************************************************************/
-/*** mission statement ***/
 .contact-us    {
     padding: 80px 0 80px 0;
     text-align: center;
@@ -414,6 +412,44 @@ body    {
 }
 
 .contact-us a   {
+    text-decoration: none;
+}
+
+/*******************************************************************************
+ * UU-Kiss
+ * .uu-kiss
+ ******************************************************************************/
+.uu-kiss {
+    padding: 80px 0 80px 0;
+    background-color: #0c5a94;
+    text-align: center;
+    color: #fff;
+}
+
+.uu-kiss img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 30px auto;
+    vertical-align: bottom;
+}
+
+.uu-kiss h2  {
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.uu-kiss h3  {
+    font-size: 30px;
+}
+
+.uu-kiss p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.uu-kiss a   {
     text-decoration: none;
 }
 
