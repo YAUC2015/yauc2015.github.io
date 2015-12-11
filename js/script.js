@@ -28,4 +28,9 @@ $(function() {
         }, 600, 'swing');
         return false;
     });
+    
+    $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true
+    });
 });
