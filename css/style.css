@@ -352,6 +352,36 @@ body    {
 }
 
 /*******************************************************************************
+ * 会場案内
+ * .about-venue
+ ******************************************************************************/
+.about-venue {
+    padding: 80px 0 80px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-venue img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 40px auto;
+    vertical-align: bottom;
+}
+
+.about-venue h2  {
+    margin: 0 0 20px 0;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.about-venue p   {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*******************************************************************************
  * Future
  * .about-future
  ******************************************************************************/
