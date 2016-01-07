@@ -135,12 +135,25 @@ body    {
     font-size: 20px;
     line-height: 1.6;
 }
+/*
 
 .report table {
-    background: #fff;
+    background-color:: #fff;
     color: #000;
     font-size: 16px;
     line-height: 1.6;
+}
+*/
+
+.report-table {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.report-table thead th {
+    text-align: center;
 }
 
 /*******************************************************************************
@@ -210,7 +223,7 @@ body    {
 }
 
 .about-basic-info table   {
-    background: #fff;
+    background-color: #fff;
     font-size: 16px;
     line-height: 1.6;
 }
