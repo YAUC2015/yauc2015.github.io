@@ -135,15 +135,12 @@ body    {
     font-size: 20px;
     line-height: 1.6;
 }
-/*
 
-.report table {
-    background-color:: #fff;
-    color: #000;
-    font-size: 16px;
-    line-height: 1.6;
+.report a   {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
 }
-*/
 
 .report-table {
     background-color: #fff;
